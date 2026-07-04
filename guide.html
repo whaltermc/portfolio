@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Guide | WhalterMC</title>
+  <link rel="icon" href="src/IMG_20250801_215228.png" type="image/png"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0,1" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body data-page="guide">
+
+<div class="nav-scrim" id="nav-scrim"></div>
+
+<div class="app-layout">
+  <nav class="nav-drawer" id="nav-drawer" aria-label="Main navigation">
+    <div class="nav-drawer-header">
+      <img src="src/IMG_20250801_215228.png" alt="WhalterMC logo"/>
+      <div class="nav-drawer-header-text">
+        <div class="nav-site-name">WhalterMC</div>
+        <div class="nav-site-sub" data-i18n="navSiteSub">Minecraft · Android · PH 🇵🇭</div>
+      </div>
+    </div>
+    <ul class="nav-items">
+      <li class="nav-item ripple-container"><a href="index.html"><span class="material-symbols-outlined">auto_awesome</span><span data-i18n="navHome">Home</span></a></li>
+      <li class="nav-item ripple-container"><a href="downloads.html"><span class="material-symbols-outlined">download</span><span data-i18n="navDownloads">Downloads</span></a></li>
+      <li class="nav-item ripple-container"><a href="guide.html"><span class="material-symbols-outlined">book</span><span data-i18n="navGuide">Guide</span></a></li>
+      <li class="nav-item ripple-container"><a href="device.html"><span class="material-symbols-outlined">smartphone</span><span data-i18n="navDevice">My Device</span></a></li>
+    </ul>
+  </nav>
+  
+<div class="app-container">
+        <!-- Header Bar - Sticky with Rounded Corner -->
+        <div class="header-bar">
+            <div class="logo" id="headerLogo">
+               <span class="material-symbols-outlined">menu_book</span><span data-i18n="headerModGuides">Mod Guides</span>
+            </div>
+            <div class="header-actions">
+                <!-- Language Button with Popup -->
+                <div class="popup-wrapper" id="langPopupWrapper">
+                    <button id="langBtn" class="header-btn">
+                        <span class="material-symbols-outlined">language</span>
+                        <span id="currentLangLabel">EN</span>
+                    </button>
+                    <div class="popup-menu lang-menu" id="langPopup">
+                        <div class="popup-item" data-lang="en">
+                            <span class="flag">🇺🇸</span>
+                            <span>English</span>
+                        </div>
+                        <div class="popup-item" data-lang="id">
+                            <span class="flag">🇮🇩</span>
+                            <span>Bahasa Indonesia</span>
+                        </div>
+                        <div class="popup-item" data-lang="cn">
+                            <span class="flag">🇨🇳</span>
+                            <span>中文</span>
+                        </div>
+                        <div class="popup-item" data-lang="ph">
+                            <span class="flag">🇵🇭</span>
+                            <span>Filipino</span>
+                        </div>
+                        <div class="popup-item" data-lang="vn">
+                            <span class="flag">🇻🇳</span>
+                            <span>Tiếng Việt</span>
+                        </div>
+                        <div class="popup-item" data-lang="ru">
+                            <span class="flag">🇷🇺</span>
+                            <span>Русский</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+  <div class="main-content">
+    
+    <div class="page-content">
+        <p class="page-subtitle" data-i18n="pageSubtitleGuide">Step-by-step tutorials for installing and using Minecraft mods on Android.</p>
+      </div>
+
+      <div class="stack fade-in fade-in-1">
+
+        <!-- Litematica guide -->
+        <div class="download-card">
+          <div class="download-card-header">
+            <img src="https://cdn.modrinth.com/data/bEpr0Arc/25b5529d7a3b030ac136a6ce879d8ed2a1aa4a8d.png"
+                 alt="Litematica" class="download-card-icon"/>
+            <div>
+              <div class="download-card-title" data-i18n="litematicaGuideTitle">Litematica Guide</div>
+              <div class="download-card-subtitle"><span class="badge badge-primary" data-i18n="availableNow">Available Now</span></div>
+            </div>
+          </div>
+          <div class="download-card-body">
+            <p class="download-card-desc" data-i18n="litematicaGuideDesc">Complete guide to installing and using Litematica for building schematics on Android Minecraft.</p>
+            <a href="guide/litematic.html" class="btn btn-filled ripple-container">
+              <span class="btn-label" data-i18n="readGuide">Read Guide</span>
+              <span class="material-symbols-outlined">arrow_forward</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Replay Mod — coming soon -->
+        <div class="download-card" style="opacity:0.65;">
+          <div class="download-card-header">
+            <img src="https://cdn.modrinth.com/data/Nv2fQJo5/icon.png"
+                 alt="Replay Mod" class="download-card-icon"/>
+            <div>
+              <div class="download-card-title" data-i18n="replayModGuideTitle">Replay Mod Guide</div>
+              <div class="download-card-subtitle"><span class="badge badge-secondary" data-i18n="comingSoonBadge">Coming Soon</span></div>
+            </div>
+          </div>
+          <div class="download-card-body">
+            <p class="download-card-desc" data-i18n="replayModGuideDesc">Learn how to record and replay Minecraft sessions using Replay Mod.</p>
+            <button class="btn btn-outlined" disabled style="cursor:not-allowed;opacity:0.6;" data-i18n="comingSoonButton">Coming Soon</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <footer class="page-footer"><span data-i18n="footerText">© 2026 WhalterMC · All rights reserved</span></footer>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

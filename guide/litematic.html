@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Litematica Guide | WhalterMC</title>
+  <link rel="icon" href="../src/IMG_20250801_215228.png" type="image/png"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0,1" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style/style.css">
+</head>
+<body data-page="litematic">
+
+<div class="nav-scrim" id="nav-scrim"></div>
+
+<div class="app-layout">
+  <nav class="nav-drawer" id="nav-drawer" aria-label="Main navigation">
+    <div class="nav-drawer-header">
+      <img src="../src/IMG_20250801_215228.png" alt="WhalterMC logo"/>
+      <div class="nav-drawer-header-text">
+        <div class="nav-site-name">WhalterMC</div>
+        <div class="nav-site-sub" data-i18n="navSiteSub">Minecraft · Android · PH 🇵🇭</div>
+      </div>
+    </div>
+    <ul class="nav-items">
+      <li class="nav-item ripple-container"><a href="../index.html"><span class="material-symbols-outlined">auto_awesome</span><span data-i18n="navHome">Home</span></a></li>
+      <li class="nav-item ripple-container"><a href="../downloads.html"><span class="material-symbols-outlined">download</span><span data-i18n="navDownloads">Downloads</span></a></li>
+      <li class="nav-item ripple-container"><a href="../guide.html"><span class="material-symbols-outlined">book</span><span data-i18n="navGuide">Guide</span></a></li>
+      <li class="nav-item ripple-container"><a href="../device.html"><span class="material-symbols-outlined">smartphone</span><span data-i18n="navDevice">My Device</span></a></li>
+    </ul>
+  </nav>
+<div class="app-container">
+        <!-- Header Bar - Sticky with Rounded Corner -->
+        <div class="header-bar">
+            <div class="logo" id="headerLogo">
+               <span class="material-symbols-outlined">menu_book</span><span data-i18n="headerModGuides">Mod Guides</span>
+            </div>
+            <div class="header-actions">
+                <!-- Language Button with Popup -->
+                <div class="popup-wrapper" id="langPopupWrapper">
+                    <button id="langBtn" class="header-btn">
+                        <span class="material-symbols-outlined">language</span>
+                        <span id="currentLangLabel">EN</span>
+                    </button>
+                    <div class="popup-menu lang-menu" id="langPopup">
+                        <div class="popup-item" data-lang="en">
+                            <span class="flag">🇺🇸</span>
+                            <span>English</span>
+                        </div>
+                        <div class="popup-item" data-lang="id">
+                            <span class="flag">🇮🇩</span>
+                            <span>Bahasa Indonesia</span>
+                        </div>
+                        <div class="popup-item" data-lang="cn">
+                            <span class="flag">🇨🇳</span>
+                            <span>中文</span>
+                        </div>
+                        <div class="popup-item" data-lang="ph">
+                            <span class="flag">🇵🇭</span>
+                            <span>Filipino</span>
+                        </div>
+                        <div class="popup-item" data-lang="vn">
+                            <span class="flag">🇻🇳</span>
+                            <span>Tiếng Việt</span>
+                        </div>
+                        <div class="popup-item" data-lang="ru">
+                            <span class="flag">🇷🇺</span>
+                            <span>Русский</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+
+    <div class="page-content">
+      <div class="page-header fade-in">
+        <h1 class="page-title" data-i18n="litematicaPageTitle">Litematica Guide</h1>
+        <p class="page-subtitle" data-i18n="litematicaPageSubtitle">Complete walkthrough for installing and using Litematica on Android Minecraft.</p>
+      </div>
+
+      <div class="hero-banner fade-in fade-in-1">
+        <h2 data-i18n="litematicaHeroTitle">Install Litematica on ZalithLauncher2 and related Android clients</h2>
+        <p data-i18n="litematicaHeroDesc">Follow clear steps for Fabric, schematics, and setup so you can build faster in Minecraft.</p>
+      </div>
+
+      <div class="stack fade-in fade-in-2">
+        <div class="card">
+          <h2>What you'll need</h2>
+          <ul>
+            <li><strong>ZalithLauncher2 or a prepared Android Minecraft client</strong> (latest recommended build)</li>
+            <li><strong>Minecraft Java Edition</strong> on Android</li>
+            <li><strong>Fabric Loader</strong> (required by Litematica)</li>
+            <li><strong>Litematica .jar</strong> and its dependency <strong>Malilib .jar</strong></li>
+            <li>A file manager for Android such as Files, ZArchiver, or MT Manager</li>
+          </ul>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Install Litematica and Malilib</h3>
+            <p>Open ZalithLauncher2, go to the download area, search for Litematica with the version matching your Fabric build, and install it. Then install Malilib as the required dependency.</p>
+            <div style="display:grid;gap:12px;margin-top:16px;">
+              <img src="../src/20251026_210452.jpg" alt="ZalithLauncher download button" style="width:100%;border-radius:20px;object-fit:cover;"/>
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;">
+                <img src="../src/20251026_210602.jpg" alt="Search Litematica" style="width:100%;border-radius:20px;object-fit:cover;"/>
+                <img src="../src/20251026_210650.jpg" alt="Install Litematica" style="width:100%;border-radius:20px;object-fit:cover;"/>
+                <img src="../src/20251026_210709.jpg" alt="Litematica install progress" style="width:100%;border-radius:20px;object-fit:cover;"/>
+                <img src="../src/20251026_210738.jpg" alt="Install Malilib" style="width:100%;border-radius:20px;object-fit:cover;"/>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Put schematics in the right folder</h3>
+            <p>Launch the game once, then open your file manager and navigate to <strong>android_data ➤ files ➤ .minecraft ➤ versions ➤ [your Fabric version]</strong>. Add your downloaded .litematic or .schem files into the Schematics folder.</p>
+            <div style="display:grid;gap:12px;margin-top:16px;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));">
+              <img src="../src/20251026_213024.jpg" alt="Open files folder" style="width:100%;border-radius:20px;object-fit:cover;"/>
+              <img src="../src/20251026_213051.jpg" alt="Navigate to .minecraft" style="width:100%;border-radius:20px;object-fit:cover;"/>
+              <img src="../src/20251026_213123.jpg" alt="Versions folder" style="width:100%;border-radius:20px;object-fit:cover;"/>
+              <img src="../src/20251026_213152.jpg" alt="Fabric version folder" style="width:100%;border-radius:20px;object-fit:cover;"/>
+              <img src="../src/20251026_213220.jpg" alt="Schematics folder" style="width:100%;border-radius:20px;object-fit:cover;"/>
+              <img src="../src/20251026_213247.jpg" alt="Add schematics" style="width:100%;border-radius:20px;object-fit:cover;"/>
+              <img src="../src/20251026_213317.jpg" alt="Upload schematics" style="width:100%;border-radius:20px;object-fit:cover;"/>
+              <img src="../src/20251026_213356.jpg" alt="Schematics folder view" style="width:100%;border-radius:20px;object-fit:cover;"/>
+            </div>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Load the schematic in-game</h3>
+            <p>Press <strong>M</strong> in the game controls to open the Litematica menu, choose <strong>Load Schematics</strong>, then select the file you added.</p>
+            <img src="../src/ui.jpeg" alt="Litematica menu" style="width:100%;border-radius:20px;object-fit:cover;margin-top:16px;"/>
+            <img src="../src/help-my-schematic-is-not-showing-up-or-loading-v0-zk8piub9k9uf1.png" alt="Schematic loading help" style="width:100%;border-radius:20px;object-fit:cover;margin-top:12px;"/>
+            <p style="margin-top:12px;">After loading, press <strong>Escape</strong>, equip a stick, and click the ground to move the schematic into place.</p>
+            <img src="../src/d66rx66yb2d51.png" alt="Move schematic with stick" style="width:100%;border-radius:20px;object-fit:cover;margin-top:12px;"/>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <h3>Unload schematics when done</h3>
+            <p>Open the Litematica menu with <strong>M</strong>, go to loaded schematics, and choose <strong>Unload</strong> to remove the current schematic.</p>
+            <img src="https://staticfiles.gleap.io/ghelparticle/ZwSBKMYWI8U5TvlOjAnjX4Bcr7KqJtN6NMPPf8PiA2xVJ0tdiiZ5dmD1Qmb3l8BZUfMCoNXZ2mz.gif" alt="Unload schematic animation" style="width:100%;border-radius:20px;object-fit:cover;margin-top:16px;"/>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 data-i18n="notesHeading">Notes &amp; tips</h2>
+          <ul>
+            <li>Litematica requires <strong>Fabric</strong> and will <em>not</em> work on Forge.</li>
+            <li>If large schematics slow your device, lower render distance and disable fancy graphics.</li>
+            <li>Try performance mods like <strong>Iris</strong> + <strong>Sodium</strong> if they are compatible with your setup.</li>
+          </ul>
+        </div>
+
+        <div class="card card-elevated" style="display:flex;flex-direction:column;gap:12px;">
+          <p class="title-small" style="opacity:0.85;" data-i18n="needMoreHelp">Need more help?</p>
+          <p class="body-medium" data-i18n="needMoreHelpBody">If the schematic does not appear, double-check the file path and Minecraft version, then reload the game.</p>
+          <a href="../guide.html" class="btn btn-outlined" style="width:max-content;"><span data-i18n="backToGuides">Back to Guides</span></a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer"><span data-i18n="footerText">&copy; 2026 WhalterMC · All rights reserved</span></footer>
+  </div>
+</div>
+
+<script src="../script.js"></script>
+</body>
+</html>

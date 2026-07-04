@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>whaltermc</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0,1" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body data-page="index">
+    <div class="app-container">
+        <!-- Header Bar - Sticky with Rounded Corner -->
+        <div class="header-bar">
+            <div class="logo" id="headerLogo">
+                <span class="material-symbols-outlined">auto_awesome</span>
+                <span id="headerLogoText" data-i18n="headerLogoHome">Home</span>
+            </div>
+            <div class="header-actions">
+                <!-- Language Button with Popup -->
+                <div class="popup-wrapper" id="langPopupWrapper">
+                    <button id="langBtn" class="header-btn">
+                        <span class="material-symbols-outlined">language</span>
+                        <span id="currentLangLabel">EN</span>
+                    </button>
+                    <div class="popup-menu lang-menu" id="langPopup">
+                        <div class="popup-item" data-lang="en">
+                            <span class="flag">🇺🇸</span>
+                            <span>English</span>
+                        </div>
+                        <div class="popup-item" data-lang="id">
+                            <span class="flag">🇮🇩</span>
+                            <span>Bahasa Indonesia</span>
+                        </div>
+                        <div class="popup-item" data-lang="cn">
+                            <span class="flag">🇨🇳</span>
+                            <span>中文</span>
+                        </div>
+                        <div class="popup-item" data-lang="ph">
+                            <span class="flag">🇵🇭</span>
+                            <span>Filipino</span>
+                        </div>
+                        <div class="popup-item" data-lang="vn">
+                            <span class="flag">🇻🇳</span>
+                            <span>Tiếng Việt</span>
+                        </div>
+                        <div class="popup-item" data-lang="ru">
+                            <span class="flag">🇷🇺</span>
+                            <span>Русский</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+        <div class="combined-card">
+                <div class="combined-item tiktok-part" target="_blank">
+                    <div class="combined-left">
+                        <img src="src/pfp.png" alt="TikTok Profile" class="tiktok-avatar">
+                        <div class="combined-text">
+                            <div class="combined-username">WhalterMC <span class="material-symbols-outlined">verified</span></div>
+                            <div class="combined-label" data-i18n="followLabel">Hello, my real name is Jade!</div>
+                        </div>
+                    </div>
+                    <div class="combined-icon"><span class="material-symbols-outlined">chevron_right</span></div>
+                </div>
+                
+                <div class="combined-divider"></div>
+                <a href="https://tiktok.com/@whaltermc" class="combined-item support-part" target="_blank">
+                    <div class="combined-left">
+                        <div class="support-icon"><span class="material-symbols-outlined">favorite</span></div>
+                        <div class="combined-text">
+                            <div class="combined-username" data-i18n="donateTitleTiktok">TikTok</div>
+                            <div class="combined-label support-label" data-i18n="donateSubTiktok">Follow me on TikTok!</div>
+                        </div>
+                    </div>
+                    <div class="combined-icon"><span class="material-symbols-outlined">chevron_right</span></div>
+                </a>
+                
+                <a href="https://youtube.com/@whaltermc" class="combined-item support-part" target="_blank">
+                    <div class="combined-left">
+                        <div class="support-icon"><span class="material-symbols-outlined">add</span></div>
+                        <div class="combined-text">
+                            <div class="combined-username" data-i18n="donateTitleYoutube">YouTube</div>
+                            <div class="combined-label support-label" data-i18n="donateSubYoutube">Subscribe!</div>
+                        </div>
+                    </div>
+                    <div class="combined-icon"><span class="material-symbols-outlined">chevron_right</span></div>
+                </a>
+            </div>
+            <div class="bottom-bar">
+            <div class="tab-switch">
+                <button id="homeTabBtn" class="tab-btn active">
+                    <span class="material-symbols-outlined">auto_awesome</span>
+                    <span data-i18n="tabHome">Home</span>
+                </button>
+                <button id="downloadsTabBtn" class="tab-btn">
+                    <span class="material-symbols-outlined">download</span>
+                    <span data-i18n="tabDownloads">Downloads</span>
+                </button>
+            </div>
+            
+            <div class="download-list" id="downloadList"></div>
+        </div>
+        <br>
+        
+        
+            </div>
+    </div>
+                
+    <div class="footer">
+            <span class="material-symbols-outlined">check_circle</span>
+            <span data-i18n="footerText">WhalterMC 2026 - Nice People 67</span>
+        </div>
+</body>
+<script src="script.js"></script>
+</html>
