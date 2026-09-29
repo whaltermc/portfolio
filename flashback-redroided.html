@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <title>Flashback Redroided — WhalterMC</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="style/flashback.css">
+</head>
+<body>
+
+<nav class="nav">
+    <div class="container nav-inner">
+        <a class="brand" href="#top">FLASHBACK REDROIDED</a>
+        <div class="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+</nav>
+
+<main id="top">
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <!-- Logo replacing the Minecraft character image -->
+            <img src="src/flashback-redroided.png" alt="WhalterMC Logo" class="hero-logo">
+            
+            <h1>The best<br>way to play<br>minecraft.</h1>
+            
+            <p>An Android-focused port of Flashback, adapted for mobile Minecraft launchers, ARM64 devices and the limitations of the Android runtime.</p>
+            
+            <div class="live-status">
+                <span class="live-dot"></span>
+                <span>try it right now</span>
+            </div>
+            
+            <a class="btn-download" href="#downloads">
+                <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zM12 2v12.17l5.66-5.66 1.41 1.41L12 21.24 4.93 10.17l1.41-1.41L11 14.17V2h1z"/></svg>
+                DOWNLOAD
+            </a>
+            
+            <div class="installer-text">
+                <span>L</span>-- Installer for Android Launchers (ARM64)
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES SECTION (Project Info) -->
+    <section id="project" class="section">
+        <div class="container">
+            <div class="section-head">
+                <span class="kicker">THE PROJECT</span>
+                <h2>Flashback on Android.</h2>
+            </div>
+            <div class="info-grid">
+                <article class="info">
+                    <span class="tag">ANDROID FIRST</span>
+                    <h3>Launcher compatibility</h3>
+                    <p>Work is focused on Android environments such as Mojo Launcher and Zalith Launcher, including input, rendering, native libraries and filesystem behavior.</p>
+                </article>
+                <article class="info">
+                    <span class="tag">PORTING</span>
+                    <h3>Desktop assumptions removed</h3>
+                    <p>Desktop-only components are replaced or adapted so Flashback can operate inside Android Minecraft launcher constraints.</p>
+                </article>
+                <article class="info">
+                    <span class="tag">EXPORT</span>
+                    <h3>Mobile-friendly exports</h3>
+                    <p>Exports can use a predictable in-game directory instead of relying on unsupported desktop-native file dialogs.</p>
+                </article>
+                <article class="info">
+                    <span class="tag">RENDERING</span>
+                    <h3>Mobile rendering work</h3>
+                    <p>Blaze3D, RenderPearl, OpenGL, ImGui and launcher renderer differences are part of the compatibility work.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- DOWNLOADS SECTION -->
+    <section id="downloads" class="section">
+        <div class="container">
+            <div class="section-head">
+                <span class="kicker">RELEASES</span>
+                <h2>Flashback Redroided</h2>
+                <p>Android-ready builds for supported Minecraft versions.</p>
+            </div>
+            <div class="release-list">
+                <a class="release" href="https://sfile.co/8A09OnOEJTL" target="_blank" rel="noopener">
+                    <div class="release-info"><strong>1.21.8</strong><span>Flashback Redroided</span></div>
+                    <span class="release-arrow">↗</span>
+                </a>
+                <a class="release" href="https://sfile.co/06YtloTLjlT" target="_blank" rel="noopener">
+                    <div class="release-info"><strong>1.21.11</strong><span>Flashback Redroided</span></div>
+                    <span class="release-arrow">↗</span>
+                </a>
+                <a class="release" href="https://sfile.co/kHJbq8q7ucG" target="_blank" rel="noopener">
+                    <div class="release-info"><strong>26.1</strong><span>Flashback Redroided</span></div>
+                    <span class="release-arrow">↗</span>
+                </a>
+                <a class="release" href="https://sfile.co/Ltiehhrwep6" target="_blank" rel="noopener">
+                    <div class="release-info"><strong>26.2</strong><span>Flashback Redroided</span></div>
+                    <span class="release-arrow">↗</span>
+                </a>
+                <a class="release" href="https://sfile.co/pOfLo7581gx" target="_blank" rel="noopener">
+                    <div class="release-info"><strong>26.3</strong><span>Flashback Redroided</span></div>
+                    <span class="release-arrow">↗</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIDEO SECTION -->
+    <section id="videos" class="section">
+        <div class="container">
+            <div class="section-head">
+                <span class="kicker">DEMO</span>
+                <h2>See it running</h2>
+                <p>A look at Flashback Redroided on Android.</p>
+            </div>
+            <div class="video-card">
+                <video controls playsinline preload="metadata">
+                    <source src="src/flashback.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCREENSHOTS SECTION -->
+    <section id="screenshots" class="section">
+        <div class="container-wide">
+            <div class="section-head">
+                <span class="kicker">SCREENSHOTS</span>
+                <h2>Flashback in action.</h2>
+                <p>Real footage from the Android build, captured from the project demo.</p>
+            </div>
+            <div class="screenshots">
+                <a class="shot" href="src/flashback-ss.jpg" target="_blank"><img src="src/flashback-ss.jpg" alt="Flashback Redroided Minecraft scene"></a>
+                <a class="shot" href="src/flashback-ss2.jpg" target="_blank"><img src="src/flashback-ss2.jpg" alt="Flashback Redroided screenshot"></a>
+                <a class="shot" href="src/flashback-ss3.jpg" target="_blank"><img src="src/flashback-ss3.jpg" alt="Flashback Redroided screenshot"></a>
+            </div>
+            <p class="gallery-note">Screenshots are extracted from the uploaded Flashback Redroided demonstration video.</p>
+        </div>
+    </section>
+
+    <!-- STATUS SECTION -->
+    <section id="status" class="section">
+        <div class="container">
+            <div class="section-head">
+                <span class="kicker">DEVELOPMENT</span>
+                <h2>Current status</h2>
+            </div>
+            <div class="timeline">
+                <div class="step">
+                    <b>Android build & launch</b>
+                    <p>Working target with Android launcher-specific adjustments.</p>
+                </div>
+                <div class="step">
+                    <b>Flashback UI</b>
+                    <p>ImGui integration is being adapted for Android touch and virtual mouse behavior.</p>
+                </div>
+                <div class="step">
+                    <b>Export directory</b>
+                    <p>Android-safe export paths replace desktop native dialogs.</p>
+                </div>
+                <div class="step">
+                    <b>Renderer compatibility</b>
+                    <p>RenderPearl, Blaze3D and MobileGL differences remain an active area of development.</p>
+                </div>
+                <div class="step">
+                    <b>Native multimedia</b>
+                    <p>FFmpeg packaging and JavaCPP ARM64 loading remain under development.</p>
+                </div>
+            </div>
+            <div class="note">
+                Compatibility can vary by Minecraft version, launcher, renderer, device GPU and native-library setup.
+            </div>
+        </div>
+    </section>
+
+    <!-- CREDITS SECTION -->
+    <section class="section">
+        <div class="container">
+            <div class="section-head">
+                <span class="kicker">CREDITS</span>
+                <h2>About the port</h2>
+            </div>
+            <div class="info-grid">
+                <article class="info">
+                    <span class="tag">ORIGINAL PROJECT</span>
+                    <h3>Flashback by Moulberry</h3>
+                    <p>This project is based on the Flashback project by Moulberry. Refer to the original project's license and attribution requirements when distributing derivatives.</p>
+                </article>
+                <article class="info">
+                    <span class="tag">ANDROID PORT</span>
+                    <h3>WhalterMC</h3>
+                    <p>Android-specific porting, compatibility work and launcher integration are developed by WhalterMC.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container-wide footer-inner">
+        <span>Flashback Redroided · WhalterMC</span>
+        <a href="https://github.com/WhalterMC26" target="_blank" rel="noopener">GitHub ↗</a>
+        <span>Independent Android community project</span>
+    </div>
+</footer>
+
+</body>
+</html>
